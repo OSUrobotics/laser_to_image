@@ -35,7 +35,7 @@
 # Author: Benjamin Narin
 
 import roslib
-roslib.load_manifest('wheelchair_hallway')
+roslib.load_manifest('laser_to_image')
 import numpy as np, cv2
 import math
 import rospy
