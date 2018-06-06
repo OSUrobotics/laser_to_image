@@ -106,8 +106,8 @@ class laser_to_image:
 		self.pub.publish(img)
 
 		# Use CV to show image
-		cv2.imshow('result', blank_image), cv2.waitKey(3)
-		blank_image = np.zeros((image_size,image_size,3))
+		# cv2.imshow('result', blank_image), cv2.waitKey(3)
+		# blank_image = np.zeros((image_size,image_size,3))
 
 
 if __name__=='__main__':
